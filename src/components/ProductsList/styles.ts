@@ -4,7 +4,7 @@ import { Props } from '.'
 import { Cores } from '../../style'
 import { Card } from '../Products/styles'
 
-export const Container = styled.section<Omit<Props, 'title'>>`
+export const Container = styled.section<Omit<Props, 'title' | 'games'>>`
   padding: 32px 0;
   background-color: ${(props) =>
     props.background === 'black' ? Cores.preta : Cores.cinza};
