@@ -5,6 +5,7 @@ import { GlobalCss } from './style'
 
 import Home from './pages/Home'
 import Categories from './pages/categories/index'
+import Footer from './components/Footer'
 
 const rotas = (
   <Routes>
@@ -21,6 +22,7 @@ function App() {
         <Header />
       </div>
       {rotas}
+      <Footer />
     </BrowserRouter>
   )
 }
